@@ -8,8 +8,7 @@
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
     <!-- tailwind output css file -->
     <link href="./src/output.css" rel="stylesheet">
@@ -28,7 +27,7 @@
     <header class="container mx-auto px-4">
 
         <!-- navigation bar -->
-        <nav class="navbar mb-4 lg:mb-8">
+        <nav class="navbar mb-6 lg:mb-12">
             <div class="navbar-start">
                 <div class="dropdown">
                     <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -40,11 +39,11 @@
                     </div>
                     <ul tabindex="0"
                         class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                        <li><a class="hover:text-[#FF4240]">Home</a></li>
-                        <li><a class="hover:text-[#FF4240]">About</a></li>
-                        <li><a class="hover:text-[#FF4240]">Pages</a></li>
-                        <li><a class="hover:text-[#FF4240]">Blog</a></li>
-                        <li><a class="hover:text-[#FF4240]">Contact</a></li>
+                        <li><a class="hover:text-[#FF4240] font-manrope">Home</a></li>
+                        <li><a class="hover:text-[#FF4240] font-manrope">About</a></li>
+                        <li><a class="hover:text-[#FF4240] font-manrope">Pages</a></li>
+                        <li><a class="hover:text-[#FF4240] font-manrope">Blog</a></li>
+                        <li><a class="hover:text-[#FF4240] font-manrope">Contact</a></li>
                     </ul>
                 </div>
                 <a class="btn btn-ghost text-2xl lg:text-4xl font-manrope font-extrabold">Hockey<span
@@ -52,11 +51,11 @@
             </div>
             <div class="navbar-center hidden lg:flex">
                 <ul class="menu menu-horizontal px-1">
-                    <li><a class="hover:text-[#FF4240]">Home</a></li>
-                    <li><a class="hover:text-[#FF4240]">About</a></li>
-                    <li><a class="hover:text-[#FF4240]">Pages</a></li>
-                    <li><a class="hover:text-[#FF4240]">Blog</a></li>
-                    <li><a class="hover:text-[#FF4240]">Contact</a></li>
+                    <li><a class="hover:text-[#FF4240] font-manrope">Home</a></li>
+                    <li><a class="hover:text-[#FF4240] font-manrope">About</a></li>
+                    <li><a class="hover:text-[#FF4240] font-manrope">Pages</a></li>
+                    <li><a class="hover:text-[#FF4240] font-manrope">Blog</a></li>
+                    <li><a class="hover:text-[#FF4240] font-manrope">Contact</a></li>
                 </ul>
             </div>
             <div class="navbar-end">
@@ -67,12 +66,12 @@
                             d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                     </svg>
                 </button>
-                <a class="btn text-white bg-[#FF4240] lg:text-lg">Get Ticket</a>
+                <a class="btn text-white bg-[#FF4240] lg:text-lg font-manrope">Get Ticket</a>
             </div>
         </nav>
 
         <!-- slider section -->
-        <div class="lg:relative mb-4 lg:mb-8">
+        <section class="lg:relative mb-6 lg:mb-12">
             <div class="carousel w-full">
                 <div id="slide1" class="carousel-item relative w-full">
                     <img src="./Images/slide-1.png" class="w-full" />
@@ -90,11 +89,52 @@
                 </div>
             </div>
             <div class="w-full lg:w-1/2 p-4 lg:p-8 text-white bg-black rounded-xl lg:absolute lg:bottom-10 lg:right-10">
-                <p class="text-lg lg:text-2xl font-bold">Meet all the heroes from the field</p>
-                <p class="text-sm lg:text-base">Skate onto the ice, unite with champions, feel the thrill—join us, meet your hockey heroes, embrace victory together!</p>
+                <p class="text-lg lg:text-2xl font-bold font-manrope mb-2 lg:mb-4">Meet all the heroes from the field</p>
+                <p class="text-sm lg:text-base font-manrope font-light">Skate onto the ice, unite with champions, feel the thrill—join us, meet your hockey heroes, embrace victory together!</p>
             </div>
-        </div>
+        </section>
     </header>
+
+    <main class="container mx-auto px-4">
+
+        <!-- professionalism section -->
+        <section class="mb-6 lg:mb-12">
+            <div class="py-12 lg:py-16 border-y-2 border-dashed mb-12">
+                <h2 class="text-2xl font-extrabold lg:text-4xl text-center font-manrope mb-4 lg:mb-6">Professional Hockeys Club</h2>
+                <p class="text-center font-manrope text-[#13131899]">Elevate your experience with our club's professionalism—precision, passion, and excellence define every aspect of our commitment to you</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div>
+                    <div class="flex justify-center mb-6">
+                        <div class="radial-progress text-[#FF4240] text-2xl font-bold" style="--value:87; --size:7rem" role="progressbar"><span class="text-black font-manrope">87%</span></div>
+                    </div>
+                    <p class="text-center font-manrope text-xl font-bold mb-4">Player Facility</p>
+                    <p class="text-center font-manrope">Top-notch amenities, comfort, and performance-driven spaces await</p>
+                </div>
+                <div>
+                    <div class="flex justify-center mb-6">
+                        <div class="radial-progress text-[#49D293] text-2xl font-bold" style="--value:95; --size:7rem" role="progressbar"><span class="text-black font-manrope">95%</span></div>
+                    </div>
+                    <p class="text-center font-manrope text-xl font-bold mb-4">Experienced Coach</p>
+                    <p class="text-center font-manrope">Guided by seasoned expertise, our coach shapes champions with precision and passion</p>
+                </div>
+                <div>
+                    <div class="flex justify-center mb-6">
+                        <div class="radial-progress text-[#FFB546] text-2xl font-bold" style="--value:90; --size:7rem" role="progressbar"><span class="text-black font-manrope">90%</span></div>
+                    </div>
+                    <p class="text-center font-manrope text-xl font-bold mb-4">Senior Player</p>
+                    <p class="text-center font-manrope">A veteran on the field, our senior player epitomizes skill, leadership, and resilience</p>
+                </div>
+                <div>
+                    <div class="flex justify-center mb-6">
+                        <div class="radial-progress text-[#4C8DF1] text-2xl font-bold" style="--value:80; --size:7rem" role="progressbar"><span class="text-black font-manrope">80%</span></div>
+                    </div>
+                    <p class="text-center font-manrope text-xl font-bold mb-4">Training Ground</p>
+                    <p class="text-center font-manrope">Where dedication meets innovation, fostering excellence, growth, and triumph</p>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 
 </html>
