@@ -2760,6 +2760,14 @@ details.collapse summary::-webkit-details-marker {
     padding-bottom: 4rem;
   }
 
+  .lg\:text-left {
+    text-align: left;
+  }
+
+  .lg\:text-center {
+    text-align: center;
+  }
+
   .lg\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
